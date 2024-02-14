@@ -3,10 +3,95 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>PUT YOUR NAME HERE | PUT YOUR GIHUB USERNAME HERE</title>
+    <title>Milton Mupfumira | mmupfumir</title>
     <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
     <link href="css/style.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
   </head>
   <body>
+    <div class="top-image">
+      <img id="fade-image" src="img/photo-output.jpg" alt="">
+    </div>
+    <header>
+      <h1>Dieter Rams's</h1>
+      <h3>Ten Principles for Good Design</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#principle1">1. Innovation</a></li>
+        <li><a href="#principle2">2. Usefulness</a></li>
+        <li><a href="#principle3">3. Aesthetics</a></li>
+        <li><a href="#principle4">4. Product Clarity</a></li>
+        <li><a href="#principle5">5. Modesty</a></li>
+        <li><a href="#principle6">6. Honesty</a></li>
+        <li><a href="#principle7">7. Longevity</a></li>
+        <li><a href="#principle8">8. Thoroughness</a></li>
+        <li><a href="#principle9">9. Sustainability</a></li>
+        <li><a href="#principle10">10. Less is More</a></li>
+      </ul>
+    </nav>
+    <section id="principle1">
+      <h2>Principle 1: Good Design is Innovative</h2>
+      <p>The possibilities for progression are not, by any means, exhausted...</p>
+  </section>
+
+  <section id="principle2">
+      <h2>Principle 2: Good Design Makes a Product Useful</h2>
+      <p>A product is bought to be used. It has to satisfy not only functional, but also psychological and aesthetic criteria...</p>
+  </section>
+
+  <section id="principle3">
+      <h2>Principle 3: Good Design is Aesthetic</h2>
+      <p>The aesthetic quality of a product is integral to its usefulness because products are used every day...</p>
+  </section>
+
+  <section id="principle4">
+      <h2>Principle 4: Good Design Makes a Product Understandable</h2>
+      <p>It clarifies the product’s structure. Better still, it can make the product clearly express its function...</p>
+  </section>
+
+  <section id="principle5">
+      <h2>Principle 5: Good Design is Unobtrusive</h2>
+      <p>Products fulfilling a purpose are like tools. They are neither decorative objects nor works of art...</p>
+  </section>
+
+  <section id="principle6">
+      <h2>Principle 6: Good Design is Honest</h2>
+      <p>It does not make a product appear more innovative, powerful or valuable than it really is...</p>
+  </section>
+
+  <section id="principle7">
+      <h2>Principle 7: Good Design is Long-lasting</h2>
+      <p>It avoids being fashionable and therefore never appears antiquated. Unlike fashionable design, it lasts many years...</p>
+  </section>
+
+  <section id="principle8">
+      <h2>Principle 8: Good Design is Thorough Down to the Last Detail</h2>
+      <p>Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect towards the consumer...</p>
+  </section>
+
+  <section id="principle9">
+      <h2>Principle 9: Good Design is Environmentally Friendly</h2>
+      <p>Design makes an important contribution to the preservation of the environment. It conserves resources and minimizes physical and visual pollution...</p>
+  </section>
+
+  <section id="principle10">
+      <h2>Principle 10: Good Design is as Little Design as Possible</h2>
+      <p>Less, but better because it concentrates on the essential aspects, and the products are not burdened with non-essentials...</p>
+  </section>
+  <script> // code to fade out picture
+    document.addEventListener("DOMContentLoaded", function () {
+      var fadeImage = document.getElementById("fade-image");
+
+      window.addEventListener("scroll", function () {
+        var scrollPosition = window.scrollY;
+        var opacity = 1 - scrollPosition / 3600;
+
+        fadeImage.style.opacity = opacity.toFixed(2);
+      });
+    });
+  </script>
   </body>
+  <footer>
+    <h5>Designed and Developed by Milton Mupfumira</h5>
+  </footer>
 </html>

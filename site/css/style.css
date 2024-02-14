@@ -1,0 +1,100 @@
+/* Add your CSS styles here */
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;600&display=swap");
+
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.top-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+header, nav, section, footer {
+  margin: 100px;
+}
+
+h1{
+  padding-top: 75vh;
+  font-weight: 600;
+  font-size: 2.8rem ;
+}
+
+h2{
+  color: #a8a8a8;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+h3 {
+  color: #a8a8a8;
+  font-weight: 50;
+  font-size: 2.3rem
+}
+
+p{
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: right;
+  margin-bottom: 200px;
+}
+
+h5{
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 200;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.7rem;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav li {
+  margin-bottom: 45px;
+  margin-left: 4%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.5s ease, font-size 0.3s ease;
+}
+
+a:hover {
+  color: #a8a8a8;
+  font-size: larger;
+  font-weight: 600;
+
+}
